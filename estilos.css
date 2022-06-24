@@ -23,7 +23,7 @@ body{
 .header{
     height: 100vh;
     /* 02 */
-    background-image: linear-gradient(to top, rgba(190, 216, 187, 0.336) 0%, hsla(108, 51%, 81%, 0.438) 100%), url(img/5.jpg);
+    background-image: linear-gradient(to top, rgba(190, 216, 187, 0.336) 0%, hsla(0, 9%, 13%, 0.589) 100%), url(img/2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
