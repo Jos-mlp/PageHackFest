@@ -5,21 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>9. Industria, innovación e infraestructura</title>
+    <link rel="stylesheet" href="estilos.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header" id="inicio">
-        <img src="img/menu.svg" alt="menu" class="menu">
+        <img class="menu" src="img/menu.svg" alt="menu">
         <nav class="menu-navegacion">
             <a href="#inicio">Inicio</a>
-            <a href="#causas">Causas</a>
-            <a href="#objetivos">Objetivos</a>
-            <a href="#Acciones">Acciones</a>
-            <a href="#contacto">Creditos</a>
+            <a href="#causa">Causas</a>
+            <a href="#galeria">Objetivos</a>
+            <a href="#accioness">Acciones</a>
+            <a href="#footer">Creditos</a>
         </nav>
-        <div class="contenedor_head">
-            <h1>Objetivo 9. Industria, innovación e infraestructura</h1>
+        <div class="contenedor head">
+            <h1 class="titulo">Objetivo 9. Industria, innovación e infraestructura</h1>
             <p class="copy">Industria, innovación e infraestructura es una iniciativa orientada a reducir las brechas en el uso tecnológico; 
                 a fin de garantizar la inclusión de información, conocimiento en el proceso productivo e incluir novedades en productos y servicios.
             </p>
@@ -27,9 +28,9 @@
     </header>
 
     <main>
-        <section class="causas_contenedor" id="causa">
+        <section class="causas contenedores" id="causa">
             <h2 class="subtitulo">Nuestra causa</h2>
-            <div class="contenedor_causas">
+            <div class="contenedor-causa">
                 <img src="img/policia.svg" alt="Causas">
                 <div class="lista-causas">
                     <div class="causas">
@@ -53,7 +54,7 @@
                 </div>
             </div>
         </section>
-        <section class="galeria" id="portafolio">
+        <section class="gallery" id="galeria">
             <div class="contenedor">
                 <h2 class="subtitulo"></h2>
                 <div class="contenedor-galeria">
@@ -67,10 +68,11 @@
             </div>
         </section>
         
-        <!--<section class="imag-press">
+        <div class="imagen-light">
             <img src="img/close.svg" alt="" class="close">
-            <img src="" alt="" class="agregar-img">
-        </section> -->
+            <img src="" alt="" class="agregar-imagen">
+        </div> 
+
         <section class="contenedor" id="accioness">
             <h2 class="subtitulo">Causas:</h2>
             <section class="acciones">
@@ -88,11 +90,10 @@
                 </div>
             </section>
         </section>
+
     </main>
-
-
-    <footer id="credito">
-        <div class="contenedor_footer">
+    <footer id="footer">
+        <div class="contenedor footer-content">
             <div class="creditos">
                 <h2 class="brand">Josue Maldonado Lepe</h2>
                 <p>Diseñamos esta pagina para ti</p>
@@ -100,15 +101,12 @@
             <div class="social-media">
                 <a href="https://jos-mlp.github.io/" class="social-media-icon">
                     <i class='bx bx-world'></i>
-
-                    <i class='bx bxl-chrome' ></i>
                 </a>
             </div>
         </div>
     </footer>
     <!-- Agregamos los archivos js-->
-    <script>
-
-    </script>
+        <script src="js/menu.js"></script>
+        <script src="js/lightbox.js"></script>
 </body>
 </html>
