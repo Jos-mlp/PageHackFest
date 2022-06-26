@@ -94,7 +94,7 @@ body{
     font-size: 25px;
 }
 
-/* Services */
+/* Metas */
 
 .subtitulo{
     color: #000;
@@ -104,26 +104,33 @@ body{
     margin-bottom: 30px;
 }
 
-.contenedor-causa{
+.sub-subtitulo{
+    color: #000;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.contenedor-meta{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.contenedor-causa img{
+.contenedor-meta img{
     width: 40%;
 }
 
-.lista-causa{
+.lista-meta{
     width: 45%;
 }
 
-.causas{
+.meta{
     margin-bottom: 20px;
 }
 
-.n-causa{
+.n-meta{
     margin-bottom: 7px;
     color: #000000;
 }
@@ -299,16 +306,16 @@ footer{
         font-size: 40px;
     }
 
-    .contenedor-servicio img{
+    .contenedor-meta img{
         width: 80%;
         margin-bottom: 40px;
     }
     
-    .checklist-servicio{
+    .lista-meta{
         width: 80%;
     }
 
-    .service{
+    .meta{
         margin-bottom: 30px;
     }
 
