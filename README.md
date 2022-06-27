@@ -32,11 +32,13 @@ CSS
 JAVASCRIPT
 
 ## Sitios Web Utilizados para obtener el contenido visual:
+```
 https://unsplash.com
 https://fonts.google.com
 https://webgradients.com
 https://boxicons.com
 https://www.manypixels.co/gallery 
+```
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
