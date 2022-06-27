@@ -23,7 +23,7 @@ body{
 .header{
     height: 100vh;
     /* 02 */
-    background-image: linear-gradient(to top, rgba(190, 216, 187, 0.336) 0%, hsla(0, 9%, 13%, 0.589) 100%), url(img/2.jpg);
+    background-image: linear-gradient(to top, rgba(190, 216, 187, 0.336) 0%, hsla(0, 9%, 13%, 0.589) 100%), url(img/portada.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -58,11 +58,7 @@ body{
     top: 0;
     width: 30vw;
     height: 100%;
-    /* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c0ee 100%); */
-    /* 02 */
-    background-image: linear-gradient(to top, #d18c8c 0%, #fcacacb9 100%);
-    /* 028 */
-    background-image: linear-gradient(135deg, #556edf 0%, #07096b5d 100%);
+    background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -97,7 +93,7 @@ body{
 /* Metas */
 
 .subtitulo{
-    color: #000;
+    color: #c43a30;
     font-size: 40px;
     text-align: center;
     font-weight: 300;
@@ -105,7 +101,7 @@ body{
 }
 
 .sub-subtitulo{
-    color: #000;
+    color: #c43a30be;
     font-size: 30px;
     font-weight: 300;
     margin-bottom: 30px;
@@ -132,13 +128,12 @@ body{
 
 .n-meta{
     margin-bottom: 7px;
-    color: #000000;
+    color: #c43a30;
 }
 
-.number{
+.numero{
     display: inline-block;
-    /* 02 */
-    background-image: linear-gradient(to top, #c05d5d 0%, #8d3333 100%);
+    background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
     line-height: 30px;
     text-align: center;
     border-radius: 50%;
@@ -148,6 +143,7 @@ body{
     color: #fff;
     font-weight: 700;
 }
+
 
 .gallery{
     background: #f2f2f2;
@@ -233,7 +229,7 @@ body{
 }
 
 footer{
-    background: #e73600d3;
+    background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
     padding-bottom: 0.1px;
 }
 
@@ -264,7 +260,7 @@ footer{
 .social-media{
     width: 50%;
     display: flex;
-    justify-content: flex-end;
+    justify-content:flex-end;
 }
 
 .social-media-icon{
