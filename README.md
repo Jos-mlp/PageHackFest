@@ -4,7 +4,7 @@ Este repositorio contiene la pagina web que diseñamos sobre el objetivo numero 
 
 ## Contenido
 
-Puedes descargarlo desde este repositorio o hacer Forcker.
+Puedes descargarlo desde este repositorio o puedes hacer Fork.
 
 ```
 Portada
