@@ -23,7 +23,7 @@ body{
 .header{
     height: 100vh;
     /* 02 */
-    background-image: linear-gradient(to top, rgba(190, 216, 187, 0.336) 0%, hsla(0, 9%, 13%, 0.589) 100%), url(img/portada.jpg);
+    background-image: linear-gradient(to top,  rgba(54, 61, 53, 0.384) 0%, hsla(0, 9%, 13%, 0.685) 100%), url(img/portada.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
